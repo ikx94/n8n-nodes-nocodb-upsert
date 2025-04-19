@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-nocodb-upsert",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "EXPERIMENTAL, do not use yet. NocoDb node for n8n with an Append/Update (upsert) action.",
   "license": "MIT",
   "homepage": "",

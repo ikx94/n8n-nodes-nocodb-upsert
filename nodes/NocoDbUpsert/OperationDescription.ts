@@ -421,6 +421,7 @@ export const operationFields: INodeProperties[] = [
 		],
 		displayOptions: {
 			show: {
+				resource: ['row'],
 				operation: ['create', 'update', 'upsert'],
 			},
 		},
@@ -457,6 +458,7 @@ export const operationFields: INodeProperties[] = [
 		type: 'string',
 		displayOptions: {
 			show: {
+				resource: ['row'],
 				operation: ['create', 'update', 'upsert'],
 				dataToSend: ['autoMapInputData'],
 			},
@@ -477,6 +479,7 @@ export const operationFields: INodeProperties[] = [
 		},
 		displayOptions: {
 			show: {
+				resource: ['row'],
 				operation: ['create', 'update', 'upsert'],
 				dataToSend: ['defineBelow'],
 			},
