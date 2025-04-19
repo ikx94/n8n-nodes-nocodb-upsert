@@ -125,8 +125,8 @@ export const operationFields: INodeProperties[] = [
 		],
 		displayOptions: {
 			show: {
-				version: [1, 2],
-				operation: ['delete', 'update'],
+				version: [1, 2, 3],
+				operation: ['delete', 'update', 'upsert'],
 			},
 		},
 	},
@@ -211,7 +211,7 @@ export const operationFields: INodeProperties[] = [
 		displayOptions: {
 			show: {
 				version: [3],
-				operation: ['delete', 'get'],
+				operation: ['delete', 'get', 'upsert'],
 			},
 		},
 	},
@@ -421,7 +421,7 @@ export const operationFields: INodeProperties[] = [
 		],
 		displayOptions: {
 			show: {
-				operation: ['create', 'update'],
+				operation: ['create', 'update', 'upsert'],
 			},
 		},
 		default: 'defineBelow',
@@ -446,7 +446,7 @@ export const operationFields: INodeProperties[] = [
 		default: '',
 		displayOptions: {
 			show: {
-				operation: ['update'],
+				operation: ['update', 'upsert'],
 				version: [3],
 			},
 		},
@@ -457,7 +457,7 @@ export const operationFields: INodeProperties[] = [
 		type: 'string',
 		displayOptions: {
 			show: {
-				operation: ['create', 'update'],
+				operation: ['create', 'update', 'upsert'],
 				dataToSend: ['autoMapInputData'],
 			},
 		},
@@ -477,7 +477,7 @@ export const operationFields: INodeProperties[] = [
 		},
 		displayOptions: {
 			show: {
-				operation: ['create', 'update'],
+				operation: ['create', 'update', 'upsert'],
 				dataToSend: ['defineBelow'],
 			},
 		},
